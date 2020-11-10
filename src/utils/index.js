@@ -1,4 +1,5 @@
-const validator = require('./validator')
+const validator = require('./validator')  // 表单验证
+const validate = require('./validType')
 const touch = require('./touch')
 
 /**
@@ -258,6 +259,7 @@ module.exports = {
   hideIdCard,
   hideName,
   validator,
+  validate,
   touchStart: touch.touchStart,
   touchMove: touch.touchMove,
   touchEnd: touch.touchEnd

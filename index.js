@@ -7,6 +7,8 @@ const Storage = require('./src/storage/index')      // 小程序的本地存储
 const utils = require('./src/utils/index')      // 一些常用方法
 const Libs = Object.assign({ Event, Map, CryptoJS, dayjs, Storage }, utils)
 
+export const UTILS = Libs.utils
+
 /* 封装triggerEvent */
 export const $emit = (...args) => {
   this.triggerEvent(...args)
