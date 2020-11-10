@@ -1,0 +1,27 @@
+{
+  "name": "wxsharp",
+  "version": "1.0.8",
+  "description": "小程序的一些常用方法",
+  "main": "dist/index.js",
+  "miniprogram": "dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "miniprogram"
+  ],
+  "author": "joanoor",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
